@@ -12,6 +12,9 @@ public class Main {
 		SimilarityChecker sc = new SimilarityChecker(str); 
 		System.out.println(sc.getThreadDrivers()); 
 		
+		String dreams = "I have a DREAM!!! ThaT one day I will not have One one dream...";
+		WordSort word = new WordSort(dreams);
+		WordSort.printMap(word.getWordMap());
 	}
 
 }
